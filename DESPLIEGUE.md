@@ -2,6 +2,13 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=390f16&text=DESPLIEGUE&fontColor=ffff&fontSize=48&fontAlignY=32&desc=Render%20%C2%B7%20Neon%20%C2%B7%20Vercel%20%C2%B7%20Lucha%20o%20Muere&descColor=EDE6D6&descAlignY=58"/>
 </p>
 
+<p align="center">
+  <a href="https://lucha.navyri.online" title="Abrir Lucha o Muere en la nube">
+    <img src="./docs/banner.gif" height="159" alt="Lucha o Muere — abrir la app"/>
+  </a>
+</p>
+
+
 Guía para dejar el proyecto vivo en la nube y sirviéndolo desde
 `lucha.navyri.online` (subdominio gratis en Vercel). Este repo contiene ambas
 piezas: `backend/` (Express) y `frontend/` (Next.js).
