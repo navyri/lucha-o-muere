@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://lucha.navyri.online" title="Abrir Lucha o Muere en la nube">
-    <img src="../docs/banner.gif" height="160" alt="Lucha o Muere — abrir la app"/>
+    <img src="../docs/banner.gif" height="159" alt="Lucha o Muere — abrir la app"/>
   </a>
 </p>
 
@@ -23,7 +23,7 @@ en cuatro familias (`/auth`, `/admin`, `/dictator`, `/sponsor`) y las consume el
 [frontend Next.js](../frontend/README.md) de este mismo repo.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Requisitos
@@ -33,6 +33,10 @@ en cuatro familias (`/auth`, `/admin`, `/dictator`, `/sponsor`) y las consume el
 | Node.js | 18+ | Express + TypeScript compilado con `tsc` |
 | PostgreSQL | 14+ | local o Docker; en la nube se usa Neon (`DB_SSL=true`) |
 | npm | 9+ | dependencias del proyecto |
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
 
 ## Arranque rápido
 
@@ -47,6 +51,10 @@ npm start                       # node dist/app.js (npm run dev para desarrollo)
 
 El esquema [`db-schema.sql`](./db-schema.sql) versiona las 13 tablas, los tipos ENUM y los índices,
 sin datos.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
 
 ## Variables de entorno
 
@@ -77,7 +85,7 @@ curl -X POST http://localhost:3000/auth/register \
 Los usuarios creados por el admin nacen **inactivos** y el admin los activa desde su panel.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Endpoints
@@ -153,7 +161,7 @@ Los usuarios creados por el admin nacen **inactivos** y el admin los activa desd
 | `GET /sponsor/my-bets` | Ver mis apuestas (también disponible para Dictadores) |
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Estructura
@@ -180,7 +188,7 @@ backend/
 
 ## Autora
 
-**Mariana Esguerra** · [github.com/navyri](https://github.com/navyri)
+· ©  <a href="https://github.com/navyri" target="_blank">**Mariana Esguerra**</a>
 
 Proyecto final de Ingeniería Web — semestre 2025-1.
 

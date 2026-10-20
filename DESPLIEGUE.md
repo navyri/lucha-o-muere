@@ -1,8 +1,14 @@
-# Despliegue — Lucha o Muere (backend + frontend)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=390f16&text=DESPLIEGUE&fontColor=ffff&fontSize=48&fontAlignY=32&desc=Render%20%C2%B7%20Neon%20%C2%B7%20Vercel%20%C2%B7%20Lucha%20o%20Muere&descColor=EDE6D6&descAlignY=58"/>
+</p>
 
 Guía para dejar el proyecto vivo en la nube y sirviéndolo desde
 `lucha.navyri.online` (subdominio gratis en Vercel). Este repo contiene ambas
 piezas: `backend/` (Express) y `frontend/` (Next.js).
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
 
 ## 1. Base de datos — Neon (gratis)
 
@@ -10,6 +16,10 @@ piezas: `backend/` (Express) y `frontend/` (Next.js).
 2. En **SQL Editor**, pega y ejecuta el contenido de [`backend/db-schema.sql`](./backend/db-schema.sql)
    (13 tablas, tipos ENUM e índices; esquema sin datos).
 3. En **Connection Details** copia: **Host**, **Database**, **User**, **Password**.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
 
 ## 2. Backend — Render (gratis)
 
@@ -40,6 +50,10 @@ piezas: `backend/` (Express) y `frontend/` (Next.js).
 
 > El plan free duerme tras 15 min sin uso: la primera petición tarda ~50 s.
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
+
 ## 3. Frontend — Vercel (gratis)
 
 1. [vercel.com](https://vercel.com) → **New Project** → importa este mismo repo.
@@ -53,6 +67,10 @@ piezas: `backend/` (Express) y `frontend/` (Next.js).
 4. Deploy.
 5. **Settings → Domains** → agrega `lucha.navyri.online`.
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
+
 ## 4. DNS — navyri.online
 
 En el panel donde tengas el dominio, agrega:
@@ -62,6 +80,10 @@ En el panel donde tengas el dominio, agrega:
 | CNAME | `lucha` | `cname.vercel-dns.com` |
 
 Vercel emite el certificado HTTPS automáticamente.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
 
 ## 5. Primer usuario
 
@@ -76,3 +98,17 @@ Vercel emite el certificado HTTPS automáticamente.
 
 3. Entra al panel y desde **crear-usuario** registra Dictadores y Sponsors
    (nacen inactivos; el admin los activa).
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
+
+## Autora
+
+· © <a href="https://github.com/navyri" target="_blank">**Mariana Esguerra**</a>
+
+Proyecto final de Ingeniería Web — semestre 2025-1.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=390f16" alt=""/>
+</p>

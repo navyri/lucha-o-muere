@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://lucha.navyri.online" title="Abrir Lucha o Muere en la nube">
-    <img src="./docs/banner.gif" height="180" alt="Lucha o Muere — abrir la app"/>
+    <img src="./docs/banner.gif" height="150" alt="Lucha o Muere — abrir la app"/>
   </a>
 </p>
 
@@ -32,7 +32,7 @@ muertes e informe de lesiones.
 Ambas piezas corren gratis en la nube (0 USD): frontend en Vercel, API en Render y base de datos en Neon.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Requisitos
@@ -42,6 +42,10 @@ Ambas piezas corren gratis en la nube (0 USD): frontend en Vercel, API en Render
 | Node.js | 18+ | backend (Express) y frontend (Next.js) |
 | PostgreSQL | 14+ | local o un contenedor Docker; en la nube se usa Neon |
 | npm | 9+ | gestor de paquetes de ambos proyectos |
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
 
 ## Arranque rápido (local)
 
@@ -73,7 +77,7 @@ curl -X POST http://localhost:3000/auth/register \
 Los usuarios creados por el admin nacen **inactivos** y el admin los activa desde su panel.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Credenciales de prueba
@@ -98,7 +102,7 @@ Los usuarios creados por el admin nacen **inactivos** y el admin los activa desd
 | UI oscura | Next.js + Tailwind con paleta rojo sangre sobre negro y scrollbar temático |
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Estructura del proyecto
@@ -132,7 +136,7 @@ lucha-o-muere/
 ```
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Endpoints
@@ -208,7 +212,7 @@ lucha-o-muere/
 | `GET /sponsor/my-bets` | Ver mis apuestas (también disponible para Dictadores) |
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Despliegue en la nube (0 USD)
@@ -223,6 +227,10 @@ Un solo repositorio con dos orígenes de despliegue:
 
 El paso a paso completo está en [DESPLIEGUE.md](./DESPLIEGUE.md).
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
+
 ## Repositorios originales
 
 Durante el curso el proyecto se desarrolló en dos repositorios separados, conservados tal cual:
@@ -234,9 +242,13 @@ Este repo los reúne en una sola carpeta (`backend/` + `frontend/`) con las mejo
 el despliegue permanente: soporte SSL para bases en la nube (`DB_SSL`), variables de entorno
 documentadas, esquema SQL versionado sin datos y README unificado.
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
+
 ## Autora
 
-**Mariana Esguerra** · [github.com/navyri](https://github.com/navyri)
+· © <a href="https://github.com/navyri" target="_blank">**Mariana Esguerra**</a>
 
 Proyecto final de Ingeniería Web — semestre 2025-1.
 

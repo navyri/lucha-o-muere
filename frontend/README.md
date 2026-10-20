@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://lucha.navyri.online" title="Abrir Lucha o Muere en la nube">
-    <img src="../docs/banner.gif" height="160" alt="Lucha o Muere — abrir la app"/>
+    <img src="../docs/banner.gif" height="159" alt="Lucha o Muere — abrir la app"/>
   </a>
 </p>
 
@@ -24,7 +24,7 @@ correspondiente; el cliente axios adjunta el token JWT en cada petición a la
 scrollbar temático a juego.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Requisitos
@@ -33,6 +33,10 @@ scrollbar temático a juego.
 |---|---|---|
 | Node.js | 18+ | Next.js 15 con Turbopack |
 | Backend | corriendo | [backend/](../backend/README.md) en local o desplegado en Render |
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
 
 ## Arranque rápido
 
@@ -43,11 +47,19 @@ echo "NEXT_PUBLIC_API_URL=http://localhost:3000" > .env.local   # URL de la API,
 npm run dev                     # http://localhost:3001
 ```
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
+
 ## Variables de entorno
 
 | Variable | Descripción |
 |---|---|
 | `NEXT_PUBLIC_API_URL` | URL base de la API (`http://localhost:3000` en local, `https://<servicio>.onrender.com` en Render) |
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
 
 ## Paneles por rol
 
@@ -61,7 +73,7 @@ El login (`/login`) entrega el JWT; el middleware de Next.js valida el token y e
 entrar a cada panel, y `/welcome` muestra la bienvenida con el selector.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0F0F0F"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
 </p>
 
 ## Estructura
@@ -81,6 +93,10 @@ frontend/
 └── .env.local              # No versionado (ver tabla de arriba)
 ```
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
+
 ## Enlaces
 
 - [Repo completo (backend + frontend)](../README.md)
@@ -88,9 +104,13 @@ frontend/
 - [Guía de despliegue](../DESPLIEGUE.md)
 - [Repositorio original del frontend](https://github.com/navyri/Frontend_Final_IngWeb)
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=390F16"/>
+</p>
+
 ## Autora
 
-**Mariana Esguerra** · [github.com/navyri](https://github.com/navyri)
+· ©  <a href="https://github.com/navyri" target="_blank">**Mariana Esguerra**</a>
 
 Proyecto final de Ingeniería Web — semestre 2025-1.
 
